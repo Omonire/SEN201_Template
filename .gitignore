@@ -1,0 +1,33 @@
+# Generated student assignments and documents
+*.docx
+*.doc
+*.pdf
+*.odt
+*_Assignment.*
+*_Explanation_Guide.*
+
+# Personal student data and private configuration
+*student*info*
+*personal*data*
+secrets.*
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.tmp
+.idea/
+.vscode/
+
+# Dependency and build artefacts
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/

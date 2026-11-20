@@ -72,16 +72,23 @@ and formal sign-off are required.
 ### 6. Incremental Model
 
 The system is divided into functional slices that are built and delivered one after
-another. Each increment adds capability to the previous one. It suits projects where a
-usable core is needed early or where delivery can be staged. It requires good interface
-design, and the overall architecture must be planned before increments begin.
+another. Each increment adds capability to the previous one. Iterative and Incremental
+are closely related and are often treated as one approach: each increment is produced
+by repeated refinement until it is ready. This guide uses **Incremental** for that
+combined idea. It suits projects where a usable core is needed early or where delivery
+can be staged. It requires good interface design, and the overall architecture must be
+planned before increments begin.
 
-### 7. Iterative Model
+### 7. DevOps Model
 
-A single capability or the whole system is refined through repeated versions. Each
-iteration improves on the last based on evaluation and feedback. It suits projects where
-the final solution is not fully understood at the start. It needs careful version
-control and can suffer from scope creep if iterations are not controlled.
+DevOps combines software development and IT operations into a continuous delivery
+pipeline. It emphasises close collaboration between development and operations teams,
+continuous integration, automated testing and builds, continuous delivery or deployment,
+infrastructure as code, and ongoing monitoring and feedback. It suits systems that need
+frequent releases, fast feedback and reliable, repeatable deployments. Its weaknesses
+are the need for strong automation and tooling, a significant cultural and setup cost,
+and the fact that it does not by itself define requirements analysis or design activities;
+it is therefore often combined with another SDLC model.
 
 ## Choosing a model
 

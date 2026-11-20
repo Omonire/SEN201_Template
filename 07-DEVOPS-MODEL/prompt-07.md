@@ -1,6 +1,6 @@
-# SEN 201 Assignment Prompt - Iterative Model | UrgentTriage emergency call assistant
+# SEN 201 Assignment Prompt - DevOps Model | tax filing portal compliance releases
 
-> Prompt ID: IT-14  |  Model folder: `07-ITERATIVE-MODEL`  |  File: `prompt-14.md`
+> Prompt ID: DP-07  |  Model folder: `07-DEVOPS-MODEL`  |  File: `prompt-07.md`
 >
 > This is a reusable AI prompt template for the SEN 201 Software Engineering assignment. Copy the entire contents into ChatGPT, Claude or another capable AI platform. It is a set of instructions, not a completed assignment.
 
@@ -8,11 +8,11 @@
 
 ## 0. Operating instructions
 
-Assume the role of a meticulous coursework coordinator. The brief you produce must be copy-paste ready for a student, academically rigorous and identical in completeness to every other brief in this repository.
+You are a Software Engineering practitioner assisting with university coursework. Keep the language technical but accessible, follow the sequence exactly and never claim work was done that you did not do.
 
-Use formal headings and avoid bullet-heavy prose in the narrative sections; reserve lists for requirements, stakeholders and checklists.
+Use disciplined academic language throughout. Separate description of established SDLC theory from judgement about the specific project.
 
-Analytical emphasis for this brief: Emphasise the relationship between development activities and their corresponding checking activities wherever the model defines one.
+Analytical emphasis for this brief: Analyse stakeholder influence: who can change direction, at what point and with what consequence.
 
 Default course information (use unless the student supplies a correction):
 
@@ -36,54 +36,54 @@ Tell the student they may supply missing information later or correct anything a
 
 ## Stage 2 - Present the assigned model and the predefined scenario
 
-The scenario that follows is mandatory. Students must not substitute a personal or alternative case study.
+This prompt ships with one predetermined project context. The case study is deliberately specific; do not generalise it away.
 
-**Assigned SDLC model:** Iterative Model
+**Assigned SDLC model:** DevOps Model
 
-**Case study domain:** Emergency information systems
+**Case study domain:** Educational technology
 
 ### Predefined scenario
 
-UrgentTriage, an emergency medical service analysing call transcripts. The assistant suggests priority levels from call content but must be repeatedly checked against dispatcher decisions. The same tool is refined over several cycles before it can support, never replace, trained staff.
+A national tax filing portal must update validation rules whenever the schedule changes. Manual deployments have produced inconsistent rule versions. The team will automate rule tests, build immutable artefacts and deploy through approval gates with monitoring of rejected submissions.
 
 ### Project requirements
 
-- Transcribe emergency calls into structured information.
-- Suggest a priority level with supporting cues.
-- Show the exact phrases influencing each suggestion.
-- Record dispatcher decisions and corrections.
-- Refine the assistant in repeated reviewed cycles.
+- Store tax rule definitions and infrastructure code in version control.
+- Run automated validation against published test cases.
+- Build a signed artefact for each rule release.
+- Deploy through staging and approval gates.
+- Monitor rejected submissions and error patterns.
 
 ### Project objectives
 
-- Support faster dispatcher decisions.
-- Improve suggestion reliability through repeated review.
-- Maintain human authority over every priority decision.
+- Ensure every deployment uses the same verified rule set.
+- Reduce the lead time for rule updates.
+- Provide evidence for audit and reconciliation.
 
 ### Stakeholders
 
-- Emergency dispatchers
-- Paramedics
-- Medical directors
-- Safety officers
-- Data scientists
-- Service managers
+- Tax authority
+- Portal users
+- Finance ministry
+- Compliance auditors
+- Platform engineers
+- Support desk
 
 ### Expected outcomes
 
-- Progressively more reliable suggestions.
-- Documented dispatcher corrections per cycle.
-- Clear evidence about where the tool should not be trusted.
+- Consistent, verified rule releases.
+- Short lead time from rule approval to deployment.
+- Auditable deployment and monitoring records.
 
 ### Analytical note on the model-scenario pairing
 
-High-stakes classification requires repeated validation before trust. The Iterative Model is appropriate because each cycle refines the same assistant using dispatcher decisions, improving reliability without turning it into a different product.
+The case calls for repeatability and evidence rather than product invention. DevOps fits because an automated pipeline enforces the same checks on every release of the same portal.
 
 Present this information to the student clearly. Confirm that the model and scenario are understood before proceeding to research. The pairing note is guidance for your analysis; the final documents must develop the reasoning in the student's own academic voice.
 
 ## Stage 3 - Conduct online research before preparing anything
 
-Look for academic material that compares this model with alternatives, so the justification section can be grounded in recognised selection reasoning.
+Your research should establish how the assigned model is defined in authoritative Software Engineering literature and what evidence exists for its use in comparable projects.
 
 You must carry out genuine online research at this stage. Follow these rules precisely:
 
@@ -99,16 +99,16 @@ You must carry out genuine online research at this stage. Follow these rules pre
 
 Research questions to answer for this specific brief:
 
-- How is the Iterative Model defined and characterised in authoritative Software Engineering literature?
+- How is the DevOps Model defined and characterised in authoritative Software Engineering literature?
 - Under what conditions do reputable sources consider this model appropriate, and what are the recognised selection criteria?
-- What limitations are reported for this model, and how could they plausibly affect a project like UrgentTriage emergency call assistant?
-- What evidence exists about applying this model in the emergency information systems domain or comparable projects?
+- What limitations are reported for this model, and how could they plausibly affect a project like StudyPath personalised revision planner?
+- What evidence exists about applying this model in the educational technology domain or comparable projects?
 - Which verifiable sources should be cited for definitions, phase descriptions, advantages and limitations?
-- How does the case-study context - Support faster dispatcher decisions., Improve suggestion reliability through repeated review - shape the justification for the chosen model?
+- How does the case-study context - Ensure every deployment uses the same verified rule set, Reduce the lead time for rule updates - shape the justification for the chosen model?
 
 ## Stage 4 - Generate a proposed academic title
 
-Propose this title unless the student requests a change: **Iterative Refinement and Review of the UrgentTriage Emergency Call Assistant**
+Propose this title unless the student requests a change: **Automated Compliance Release Pipeline for a National Tax Filing Portal**
 
 The title must reflect both the assigned model and the actual case study, sound natural and academically professional, avoid generic or sensational wording and be based on the real project. Do not reuse a fixed title across different scenarios. Offer the student a short explanation of why the title is appropriate.
 
@@ -117,7 +117,7 @@ The title must reflect both the assigned model and the actual case study, sound 
 Before generating any file, present all of the following to the student:
 
 - The proposed academic title.
-- The proposed section outline in this order: Introduction, Definition of a Software Engineering Model, Overview of SDLC Models, Selected Model, Case Study, Application of the Model, Advantages, Justification, Structural Diagram Explanation, Disadvantages, Conclusion, References.
+- The proposed section outline in this order: Introduction, Definition of a Software Engineering Model, Overview of SDLC Models, Selected Model, Case Study, Structural Diagram Explanation, Application of the Model, Justification, Advantages, Disadvantages, Conclusion, References.
 - A short scenario analysis: the key requirements, the most important stakeholders and the model-scenario fit.
 - A summary of your research findings, clearly separating established facts from interpretation.
 - The full list of verified references you intend to cite, with in-text citation locations.
@@ -128,7 +128,7 @@ Make clear that this is a proposal only and that no document has been created ye
 
 ## Stage 6 - Ask the student to review the proposal
 
-Check with the student that the title, outline, analysis and sources are acceptable before continuing.
+Check the proposal against the student's own course expectations and ask for a clear go-ahead.
 
 ## Stage 7 - Approval gate: WAIT for explicit approval
 
@@ -150,22 +150,22 @@ On receipt of explicit approval, generate exactly two editable Microsoft Word do
 
 ### Document One - Main SEN 201 assignment
 
-Suggested file name: `SEN201_Iterative_Assignment.docx`
+Suggested file name: `SEN201_DevOps_Assignment.docx`
 
 It must contain, in a clear heading hierarchy:
 
 - A professional title page carrying the student information from Stage 1, the default course details (unless corrected), the proposed academic title and the date of submission.
-- All academic sections below, each with an appropriate heading. Use this order: A. Introduction, B. Definition of a Software Engineering Model, C. Overview of SDLC Models, D. Selected Model, E. Case Study, F. Application of the Model, H. Advantages, G. Justification, I. Structural Diagram Explanation, J. Disadvantages, K. Conclusion, L. References.
+- All academic sections below, each with an appropriate heading. Use this order: A. Introduction, B. Definition of a Software Engineering Model, C. Overview of SDLC Models, D. Selected Model, E. Case Study, I. Structural Diagram Explanation, F. Application of the Model, G. Justification, H. Advantages, J. Disadvantages, K. Conclusion, L. References.
 
 - **A. Introduction:** Explain the concept of software development models and their importance in Software Engineering.
 - **B. Definition of a Software Engineering Model:** Define what a model means in the context of Software Engineering and identify what a model represents.
-- **C. Overview of SDLC Models:** Briefly introduce all seven models covered in this repository: Waterfall, V-Model, Spiral, Prototype, Agile, Incremental and Iterative.
+- **C. Overview of SDLC Models:** Briefly introduce all seven models covered in this repository: Waterfall, V-Model, Spiral, Prototype, Agile, Incremental and DevOps.
 - **D. Selected Model:** Give an accurate definition and a detailed explanation of the assigned model, including its characteristic activities.
 - **E. Case Study:** Present the predefined scenario with its requirements, objectives, stakeholders and expected outcomes.
-- **F. Application of the Model:** Explain exactly how the selected model would be applied to this scenario, including phases and workflow.
-- **H. Advantages:** Discuss practical advantages in relation to the case study rather than generic textbook benefits.
-- **G. Justification:** Explain why the selected model is suitable for this specific scenario, not merely in general.
 - **I. Structural Diagram Explanation:** Explain the architecture, phases, activities, transitions and relationships shown in the model's structural diagram.
+- **F. Application of the Model:** Explain exactly how the selected model would be applied to this scenario, including phases and workflow.
+- **G. Justification:** Explain why the selected model is suitable for this specific scenario, not merely in general.
+- **H. Advantages:** Discuss practical advantages in relation to the case study rather than generic textbook benefits.
 - **J. Disadvantages:** Discuss genuine limitations and explain how each might affect the proposed project.
 - **K. Conclusion:** Provide a technically sound academic conclusion that synthesises the analysis.
 - **L. References:** Include credible, verifiable academic and technical references with in-text citations.
@@ -176,11 +176,11 @@ Immediately after the structural diagram explanation, include these two clearly 
 
 [INSERT YOUR DRAW.IO LIVE DIAGRAM LINK HERE]
 
-The seven models to introduce in the SDLC overview are: Waterfall Model, V-Model (Verification and Validation Model), Spiral Model, Prototype Model, Agile Model, Incremental Model and Iterative Model.
+The seven models to introduce in the SDLC overview are: Waterfall Model, V-Model (Verification and Validation Model), Spiral Model, Prototype Model, Agile Model, Incremental Model and DevOps Model.
 
 ### Document Two - Academic explanation and learning guide
 
-Suggested file name: `SEN201_Iterative_Explanation_Guide.docx`
+Suggested file name: `SEN201_DevOps_Explanation_Guide.docx`
 
 This document is a tutor-style learning companion. It must explain:
 
@@ -196,33 +196,33 @@ This document is a tutor-style learning companion. It must explain:
 - Potential questions a lecturer might ask during a viva or marking discussion.
 - Suggested answers that demonstrate genuine understanding rather than memorised wording.
 
-Explain why the case study was chosen for this model, then show how that reasoning transfers to other scenarios.
+Emphasise how a student should think about model selection when answering likely examiner questions.
 
 The guide must complement the main assignment, not repeat it word for word. Use different phrasing, add rationale and context, and focus on helping the student understand and defend the work.
 
 ## Stage 9 - Compulsory draw.io structural diagram
 
-**Required diagram:** Iterative Refinement Cycle Diagram
+**Required diagram:** DevOps Continuous Delivery Pipeline Diagram
 
 draw.io is a free, browser-based diagramming tool available at https://app.diagrams.net/ . It is also known as diagrams.net and can be used online or installed as a desktop application. It is appropriate for Software Engineering diagrams because it provides a wide range of standard shapes, connectors and labelled arrows, supports precise layout, allows diagrams to be saved or exported in common formats and produces a shareable live link. These features make it well suited to representing phase structures, workflows and relationships in an SDLC model.
 
-The structural diagram you must describe to the student is designed to depict repeated cycles applied to the same product, where each version is evaluated and refined before the next, showing that improvement comes from successive versions of one capability rather than from adding separate functional slices.
+The structural diagram you must describe to the student is designed to depict a continuous delivery pipeline for one existing product: code and configuration flow through build, automated test, artefact and deployment stages, while monitoring sends feedback back to development and a rollback decision controls a failed release.
 
 Explain each of the following in the main assignment and expand on them in the explanation guide:
 
-- Important shapes: A series of concentric or overlapping circles for versions, a central product core, an evaluation symbol and a feedback arrow returning to the next version.
-- Required labels: Version 1 Baseline, Version 2 Refined, Version 3 Refined, Evaluate Against Criteria, Collect Feedback, Plan Next Refinement.
-- Arrows and connections: A circular arrow around the product core passing through Evaluate and Plan; arrows from one version circle to the next labelled Refine.
-- How to read the diagram: Follow the circular arrow. The product core stays the same in identity while each pass improves its quality, accuracy or design. Evaluation evidence from one version determines the refinement goals of the next.
+- Important shapes: A source repository cylinder, build and automated test boxes, an artefact repository cylinder, staging and production deployment boxes, a monitoring box with a feedback arrow and a rollback decision diamond.
+- Required labels: Commit, Build, Automated Tests, Artefact Repository, Deploy to Staging, Deploy to Production, Monitor and Alert, Rollback Decision.
+- Arrows and connections: A left-to-right arrow through the pipeline stages; a feedback arrow from monitoring back to build; a branch from production to the rollback diamond and back to the last known good release.
+- How to read the diagram: Follow the pipeline from left to right. Each gate can stop a defective change before the next stage. The feedback arrow shows that production evidence drives the next improvement, while the rollback diamond contains a failed release.
 
 Give the student clear step-by-step drawing guidance:
 
-1. Draw three overlapping circles around a central core labelled Target Capability.
-2. Label the circles Version 1, Version 2 and Version 3 from inner to outer.
-3. Draw a circular arrow around the circles.
-4. Place an Evaluate Against Criteria box at the top of the circle and a Collect Feedback box at the right.
-5. Add arrows from each version circle to the next labelled Refine.
-6. Annotate the diagram with the specific measure used to judge improvement in this case study.
+1. Draw a source code and configuration box at the left labelled Commit.
+2. Add Build and Automated Tests boxes to its right.
+3. Add an Artefact Repository cylinder after the automated gates.
+4. Add Deploy to Staging and Deploy to Production boxes with small approval markers.
+5. Add a Monitor and Alert box below production with a feedback arrow returning to Build.
+6. Add a Rollback Decision diamond from production and annotate it with rule release lead time and rejected-submission rate.
 
 Additional mandatory draw.io rules:
 
@@ -260,7 +260,7 @@ Confirm that the main assignment covers every item below, regardless of heading 
 
 - [ ] **A. Introduction** - Explain the concept of software development models and their importance in Software Engineering.
 - [ ] **B. Definition of a Software Engineering Model** - Define what a model means in the context of Software Engineering and identify what a model represents.
-- [ ] **C. Overview of SDLC Models** - Briefly introduce all seven models covered in this repository: Waterfall, V-Model, Spiral, Prototype, Agile, Incremental and Iterative.
+- [ ] **C. Overview of SDLC Models** - Briefly introduce all seven models covered in this repository: Waterfall, V-Model, Spiral, Prototype, Agile, Incremental and DevOps.
 - [ ] **D. Selected Model** - Give an accurate definition and a detailed explanation of the assigned model, including its characteristic activities.
 - [ ] **E. Case Study** - Present the predefined scenario with its requirements, objectives, stakeholders and expected outcomes.
 - [ ] **F. Application of the Model** - Explain exactly how the selected model would be applied to this scenario, including phases and workflow.
@@ -288,4 +288,4 @@ Before reporting completion, confirm all of the following:
 
 ---
 
-**Final reminder:** Accuracy and academic honesty take precedence over speed. Never fabricate a source, result or artefact.
+**Final reminder:** The approval gate is not optional. Silence or a casual reply never counts as permission to generate files.

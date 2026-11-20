@@ -87,7 +87,7 @@ Exactly seven model folders, **15 prompts each**:
 | 4 | `04-PROTOTYPE-MODEL` | Prototype Model | Requirement discovery via feedback |
 | 5 | `05-AGILE-MODEL` | Agile Model | Adaptation and frequent delivery |
 | 6 | `06-INCREMENTAL-MODEL` | Incremental Model | Functional slices added in sequence |
-| 7 | `07-ITERATIVE-MODEL` | Iterative Model | Repeated refinement of one capability |
+| 7 | `07-DEVOPS-MODEL` | DevOps Model | Continuous integration, delivery and monitoring |
 
 Each folder contains `prompt-01.md` through `prompt-15.md`.
 
@@ -214,7 +214,7 @@ SEN201_Model/
 ├── 04-PROTOTYPE-MODEL/      └── prompt-01.md ... prompt-15.md
 ├── 05-AGILE-MODEL/          └── prompt-01.md ... prompt-15.md
 ├── 06-INCREMENTAL-MODEL/    └── prompt-01.md ... prompt-15.md
-└── 07-ITERATIVE-MODEL/      └── prompt-01.md ... prompt-15.md
+└── 07-DEVOPS-MODEL/         └── prompt-01.md ... prompt-15.md
 ```
 
 The root folder reuse is intentional: the pre-existing `SEN201_Model` directory was adopted as the library root to avoid a redundant nested project.

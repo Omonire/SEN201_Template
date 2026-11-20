@@ -159,7 +159,7 @@ It must contain, in a clear heading hierarchy:
 
 - **A. Introduction:** Explain the concept of software development models and their importance in Software Engineering.
 - **B. Definition of a Software Engineering Model:** Define what a model means in the context of Software Engineering and identify what a model represents.
-- **C. Overview of SDLC Models:** Briefly introduce all seven models covered in this repository: Waterfall, V-Model, Spiral, Prototype, Agile, Incremental and Iterative.
+- **C. Overview of SDLC Models:** Briefly introduce all seven models covered in this repository: Waterfall, V-Model, Spiral, Prototype, Agile, Incremental and DevOps.
 - **D. Selected Model:** Give an accurate definition and a detailed explanation of the assigned model, including its characteristic activities.
 - **E. Case Study:** Present the predefined scenario with its requirements, objectives, stakeholders and expected outcomes.
 - **I. Structural Diagram Explanation:** Explain the architecture, phases, activities, transitions and relationships shown in the model's structural diagram.
@@ -176,7 +176,7 @@ Immediately after the structural diagram explanation, include these two clearly 
 
 [INSERT YOUR DRAW.IO LIVE DIAGRAM LINK HERE]
 
-The seven models to introduce in the SDLC overview are: Waterfall Model, V-Model (Verification and Validation Model), Spiral Model, Prototype Model, Agile Model, Incremental Model and Iterative Model.
+The seven models to introduce in the SDLC overview are: Waterfall Model, V-Model (Verification and Validation Model), Spiral Model, Prototype Model, Agile Model, Incremental Model and DevOps Model.
 
 ### Document Two - Academic explanation and learning guide
 
@@ -260,7 +260,7 @@ Confirm that the main assignment covers every item below, regardless of heading 
 
 - [ ] **A. Introduction** - Explain the concept of software development models and their importance in Software Engineering.
 - [ ] **B. Definition of a Software Engineering Model** - Define what a model means in the context of Software Engineering and identify what a model represents.
-- [ ] **C. Overview of SDLC Models** - Briefly introduce all seven models covered in this repository: Waterfall, V-Model, Spiral, Prototype, Agile, Incremental and Iterative.
+- [ ] **C. Overview of SDLC Models** - Briefly introduce all seven models covered in this repository: Waterfall, V-Model, Spiral, Prototype, Agile, Incremental and DevOps.
 - [ ] **D. Selected Model** - Give an accurate definition and a detailed explanation of the assigned model, including its characteristic activities.
 - [ ] **E. Case Study** - Present the predefined scenario with its requirements, objectives, stakeholders and expected outcomes.
 - [ ] **F. Application of the Model** - Explain exactly how the selected model would be applied to this scenario, including phases and workflow.
